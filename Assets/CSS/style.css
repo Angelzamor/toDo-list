@@ -121,7 +121,7 @@ background-color: var(--secundario);
 
 /*tamaño de imagen*/
 .hero{
-    background-image: url(/img/escritorio.jpg);
+    background-image: url(/Assets/img/escritorio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
