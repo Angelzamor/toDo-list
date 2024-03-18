@@ -10,7 +10,7 @@
     <link rel="preload" href="./Assets/CSS/style.css" as="style">
     <link rel="stylesheet" href="./Assets/CSS/style.css">
 
-    <title>La celda</title>
+    <title class="titulo">La celda</title>
 </head>
 <body>
     <header>
@@ -103,44 +103,50 @@
        
        
         
-    </main>
+   
 
     <section>
-        <h2>contacto</h2>
+        <h2>Contacto</h2>
         
-        <form action="#">
+        <form  class="formulario">
             <fieldset>
                 <legend>Contacta a tu esclavo de preferencia</legend>
-                <div>
+                <div class="contenedor-campos">
+
+                <div class="campo">
                     <label>Nombre</label>
-                <input type="text" placeholder="Ingresa nombre completo"> 
+                <input class="input-text" type="text" placeholder="Ingresa nombre completo"> 
                 </div>
 
-                <div>
+                <div class="campo">
                       <label>Telefono</label>
-                <input type="tel" placeholder="Ingresa los 10 digitos">
+                <input class="input-text" type="tel" placeholder="Ingresa los 10 digitos">
                 </div>
-                <div>
+                <div class="campo">
                         <label>Correo</label>
-                <input type="email" placeholder="Revisa que este bien escrito">
+                <input class="input-text" type="email" placeholder="Revisa que este bien escrito">
 
                 </div>
-                <div>
+                <div class="campo">
                       
                 <label>Mensaje</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
 
                 </div>
-                <div>
-                    <input type="submit" value="Enviar">
+
+                </div><!--contenedor de campos-->
+
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-100" type="submit" value="Enviar">
                 </div>
       
             </fieldset>
         </form>
 
     </section>
-
-    <footer>
+ </main>
+    <footer class="footer">
         <p>aqui pura celda</p>
     </footer>
  
